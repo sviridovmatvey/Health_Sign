@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.healthsign.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_food"
+        android:name="com.example.healthsign.ui.food.FoodFragment"
+        android:label="@string/menu_food" />
+
+    <fragment
+        android:id="@+id/nav_sleep"
+        android:name="com.example.healthsign.ui.sleep.SleepFragment"
+        android:label="@string/menu_sleep"
+        tools:layout="@layout/fragment_sleep" />
+
+    <fragment
+        android:id="@+id/nav_fitness"
+        android:name="com.example.healthsign.ui.fitness.FitnessFragment"
+        android:label="@string/menu_fitness"
+        tools:layout="@layout/fragment_fitness" />
+
+    <fragment
+        android:id="@+id/nav_medicine"
+        android:name="com.example.healthsign.ui.medicine.MedicineFragment"
+        android:label="@string/menu_medicine"
+        tools:layout="@layout/fragment_medicine" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.healthsign.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.healthsign.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

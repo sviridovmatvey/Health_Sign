@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Health Sign</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Your Name</string>
+    <string name="nav_header_subtitle">your@mail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_food">Food</string>
+    <string name="menu_sleep">Sleep</string>
+    <string name="menu_fitness">Fitness</string>
+    <string name="menu_medicine">Medicine</string>
+    <string name="communicate">Communicate</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>
